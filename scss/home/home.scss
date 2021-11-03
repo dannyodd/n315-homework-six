@@ -1,0 +1,77 @@
+//Styles for main page gallery
+.productItem {
+    width: 170px;
+    padding: 10px;
+    margin-bottom: 30px;
+    margin-right: 20px;
+    background-color: #F3EDE0;
+    border-radius: 10px;
+    position: relative;
+    box-shadow: 2px 2px 5px lightgray;
+    cursor: pointer;
+    h4 {
+        font-size: 15px;
+        border-bottom: 1px solid black;
+        margin-bottom: 8px;
+    }
+}
+
+.productImg {
+    width: 150px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.briefRating {
+    font-size: 12px;
+}
+.briefDsc {
+    margin-bottom: 15px;
+}
+
+//Styles for details page
+.productDetails {
+    display: flex;
+    justify-content: space-between;
+    width: 625px;
+}
+.productDetailsImg {
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 5px white;
+    background-color: white;
+    overflow: hidden;
+}
+.productDetailsText {
+    width: 300px;
+    height: 300px;
+    padding: 20px;
+    background-color: #F3EDE0;
+    position: relative;
+    border-radius: 10px;
+    box-shadow: 3px 3px 5px white;
+    h4 {
+        font-size: 20px;
+        border-bottom: 3px solid black;
+    }
+    h6 {
+        position: absolute;
+        bottom: 0;
+        font-size: 15px;
+    }
+}
+
+.closeBtn {
+    background-color: darkred;
+    color: white;
+    cursor: pointer;
+    padding: 6px 10px;
+    border-radius: 10px;
+    position: absolute;
+    right: 20px;
+    bottom: 10px;
+    display: flex;
+    text-align: center;
+    align-content: center;
+    box-shadow: 2px 2px 4px black;
+}

@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    font-family: sans-serif;
+    background-color: #CEA660;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    margin-bottom: 16px;
+}
+
+#app {
+    width: fit-content;
+    max-width: 95%;
+    margin: 50px auto;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #6B7A40;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px black;
+    font-family: 'Lato';
+}
